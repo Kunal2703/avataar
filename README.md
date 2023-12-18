@@ -1,5 +1,8 @@
 # Avataar Assessment React Application
 
+## Overview
+The Avataar Assessment React application is a dynamic and user-friendly project featuring a dynamic menu, circular carousel, smooth transitions, and infinite content loop.
+
 ## React Application Setup
 
 To get started with the Avataar Assessment React application, follow the steps below:
