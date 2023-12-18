@@ -1,0 +1,97 @@
+header {
+  height: 5rem;
+  background: #2f302c;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90vmax;
+    color: #fff;
+    margin: auto;
+
+    .brand {
+      display: flex;
+      align-items: center;
+      width: 10rem;
+    }
+
+    .logo {
+      height: 1.2rem;
+      margin: 0.25rem;
+    }
+
+    .company-name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      height: 2rem;
+      min-width: 120px;
+      border-bottom: 1px solid white;
+
+      .search-input {
+        margin-left: 0.5rem;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+        background-color: #2f302c;
+        color: white;
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 50vw;
+
+      .menu-item {
+        margin: 0 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        .more-menu {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          margin-top: 2rem;
+          background-color: #2f302c;
+          border-radius: 0.5rem;
+          list-style: none;
+
+          .menu-item {
+            padding: 0.8rem;
+            margin: 0;
+          }
+        }
+      }
+
+      .menu-item:hover {
+        color: #83cef9;
+      }
+
+      .more:hover {
+        color: #231f20;
+        background-color: #eeeeee;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}

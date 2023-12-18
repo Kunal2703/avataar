@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+
+  .card-image {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 600px;
+    height: 350px;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+  }
+}
