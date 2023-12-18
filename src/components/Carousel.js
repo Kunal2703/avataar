@@ -27,6 +27,7 @@ export const MyCarousel = (props) => {
         offsetRadius={offsetRadius}
         showNavigation={showArrows}
         animationConfig={config.gentle}
+        offsetFn={() => ({ opacity: 1 })}
       />
     </div>
   );
