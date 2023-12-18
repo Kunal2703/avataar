@@ -20,6 +20,8 @@ To get started with the Avataar Assessment React application, follow the steps b
 To run the application locally, use the following command:
    ```bash
    npm start
+   ```
 
 
- > Visit  http://localhost:3000 in your web browser to ensure the project is running locally.
+
+> Visit  http://localhost:3000 in your web browser to ensure the project is running locally.
