@@ -25,3 +25,8 @@ To run the application locally, use the following command:
 
 
 > Visit  http://localhost:3000 in your web browser to ensure the project is running locally.
+
+
+
+## Deployment Link
+Visit https://kunal2703.github.io/avataar/ to access the deployed avataar assessment.
