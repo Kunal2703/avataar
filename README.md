@@ -9,7 +9,7 @@ To get started with the Avataar Assessment React application, follow the steps b
 
 1. **Clone the repository:**
     ```bash
-    https://github.com/Kunal2703/avataar.git
+    git clone https://github.com/Kunal2703/avataar.git
     cd avataar
     ```
 
